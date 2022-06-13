@@ -1,0 +1,656 @@
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+  }
+  
+  section{
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  body{
+    background-color: black;
+    color : black;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding : 5px;
+  }
+  
+  h4{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  /* section main-bg */
+  
+  #main-bg{
+    width: 100%;
+    height: 700px;
+    background-image:url(main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #logo{
+    width: 50%;
+    height: 15%;
+    text-align: center;
+  }
+    .posisi{
+  text-align: center;
+    }
+  
+  
+  h1{
+    font-size: 5rem;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
+  
+  h3{
+    font-size: 1.5rem;
+  }
+  
+  nav{
+  opacity: 0.6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  }
+  
+  .nav-item{
+    padding: 0 20px 0 20px;
+  }
+  
+  .centered{
+    text-align: center;
+    padding-top:100px;
+  }
+  
+  .p-top{
+    text-align: center;
+    padding-top:100px;
+  
+  }
+  
+  #story{
+    margin-top : 120px;
+  }
+  
+  #header-p{
+    margin: 30px auto;
+    font-size: 1.5rem;
+  }
+  
+  /* section games */
+  
+  .games-bg{
+    background-image: url("rockpaperstrategy-1600.jpg");
+  }
+  
+  #games{
+    background-image: url("the-games-bg.jpg");
+  }
+  
+  .games-p1{
+    font-size: 1.5rem;
+  }
+  
+  .games-p2{
+    font-size: 3.2rem;
+  }
+  
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin : 0 20px;
+  }
+  
+  .carousel-control-prev{
+    margin-left : -60px;
+   }
+   .carousel-control-next{
+     margin-right : -60px;
+    }
+  
+    .pad{
+      padding : 100px 10px
+    }
+  
+    #li-games{
+      list-style-type: circle;
+      font-size : 1.5rem;
+    }
+  
+  
+  
+  
+  /* section feature */
+  
+  #features{
+    background-image: url("features.jpg");
+  }
+  
+  #p-feature{
+    width : 45%;
+    line-height: 1;
+    text-align: justify;
+  }
+   
+  .tulisan{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 100;
+    padding-left: 15px;
+    padding-top: 0;
+  }
+  
+  .tulisan-kecil{
+    font-size : 1.2rem;
+    font-weight: 100;
+    padding-left: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #featuresimg{
+    height: 60%;
+    width: 80%;;
+    padding-top : 50px;
+  }
+  
+  .feature{
+    padding-top : 100px;
+    padding-bottom: 250px;  
+  }
+  
+  span{
+    color : gold
+  }
+  
+  .list-order{
+    color : white;
+    line-height: 3;
+  }
+  
+  #garis{
+    border-left: 2px solid white;
+    position: absolute;
+    margin : 18px 0 0 22px;
+    height : 97px;
+    color: black;
+  }
+  
+  
+  #warna{
+    color: white;
+    line-height: 1;
+    font-size: 1.4rem;
+  }
+  
+  /* section requirement */
+  #requirement-bg{
+    background-image: url("requirements.png");
+  }
+  
+  .requirement-table , .requirement-th{
+    border: 1px solid;
+    width: 80%;
+    table-layout: fixed;
+    color : gray;  
+  }
+  
+  .requirement-padding{
+    padding-left: 100px;
+    padding-bottom: 160px;
+  }
+  
+  #p-requirement{
+    width:50%;
+    font-size :3rem;
+  }
+  
+  .yellow-color{
+    color: gold;
+    margin-bottom :0;
+    padding: 5px ;
+  }
+  
+  
+  /* section score */
+  #score{
+    background-image: url("top-score-bg.png");
+  }
+  
+  .padding-turun{
+    margin: 300px 0 100px 100px;
+    padding-bottom: 100px;
+    }
+    
+    .padding-table{
+      margin : 100px 0 0 0 ;
+      border: none;
+      padding : 0 0 100px 0;
+    }
+  
+  table{
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  
+  .foto-pp{
+    border-radius: 100%;
+    width: 8%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .foto-bulat{
+    position: relative;
+    width: 110%;
+  }
+  #table-tengah{
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  #table-atas{
+    margin-left: 100px;
+    margin-bottom :30px;
+    border: none;
+  }
+  
+  #table-bawah{
+    margin-left :75px;
+    border:none;
+  }
+  
+  .table-gray{
+    background-color: rgba(128, 128, 128, 0.153);
+    table-layout: fixed;
+    width: 60%;
+  }
+  
+  .foto{
+    width: 20%;
+    padding :10px;
+  }
+  
+  .nama{
+    width : 70%;
+    color : gold;
+    font-weight: 100;
+    padding-top : 10px;
+  }
+  
+  .p-date{
+    color: gray;
+    font-size: 0.7rem;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+  
+  .p-comment{
+    margin-bottom: 0;
+    padding-left: 15px;
+  }
+  
+  .p-job{
+    margin-bottom: 0;
+    color: gray;
+    padding: 0;
+  }
+  
+  .logo{
+    width : 10%;
+  }
+  
+  #p-score{
+    width:50%;
+    }
+  
+    
+  /* section news */
+  #news-bg{
+   padding : 0 0 50px 100px;
+  }
+  
+  ::placeholder{
+    color: gold;
+  }
+  
+  #p1-news{
+    padding : 100px 0 0 10px;
+    text-align: justify;
+    font-size: 1.3rem;
+    width: 25%;;
+  }
+  
+  #p2-news{
+    width:70%;
+    font-size: 3rem;
+  }
+  
+  #p3-news{
+    width:70%;
+    text-align: justify;
+  }
+  
+  form{
+    padding-bottom : 100px;
+    display: flex;
+  }
+  
+  #input-news{
+    background-color: black;
+    width : 35%;
+    padding : 5px;
+  }
+  
+  #inputan{
+    background-color :rgba(128, 128, 128, 0.037);
+    border :none;
+    color : gold;
+    height: 40%;
+  }
+  
+  .form-size{
+    background-color: rgba(128, 128, 128, 0.292);
+    height: 55%;
+  }
+
+  label{
+    height: 10%;
+    padding-left: 10px;
+   
+  }
+  
+  
+  
+  /* footer section */
+  .sosial{
+    height: 28px;
+    position: relative;
+    left: 10%;
+  }
+
+
+  .jarak{
+    padding : 0 20px 20px 20px;
+    margin-left: 380px;
+    font-size: 0.9rem;
+  }
+  
+  .kiri{
+    margin-left: 70px;
+    color: gray;
+    font-size : 0.7rem;
+    padding-bottom: 20px;
+  }
+  
+  hr{
+    border: 1px solid gray;
+    width: 90%;
+   }
+   
+   a{
+     color : white;
+   }
+  
+   @media only screen and (max-width: 768px){
+     .h1-header{
+       font-size: 2.5rem;
+       margin-top: -50px;
+     }
+  
+     #header-p{
+       font-size: 0.8rem;
+    margin-top: 0;    
+     }
+  
+     #story{
+       margin-top : 20px;
+     }
+  
+     .games-p1{
+      font-size: 1rem;
+     }
+  
+     .games-p2{
+      font-size:1.5rem;
+     }
+  
+     .carousel-control-prev{
+       margin-left : -25px;
+     }
+  
+     .carousel-control-next{
+       margin-right : -25px;
+     }
+  
+     .carousel-indicators li {
+      width: 7px;
+      height: 7px;
+      border-radius: 100%;
+      margin : 0 10px;
+    }
+  
+    .tulisan{
+  font-size: 1rem;
+    }
+  
+    .tulisan-kecil{
+  font-size: 0.5rem;
+    }
+  
+    
+  .feature{
+    padding-top : 50px;
+    padding-bottom: 250px;  
+  }
+  
+  span{
+    font-size: 0.7rem;
+  }
+  
+  #p-feature{
+    font-size: 0.7rem;
+    width : 80%;
+  }
+  
+  .feature{
+    padding-bottom: 0;
+  }
+  .list-order{
+    color : white;
+    line-height: 1;
+  }
+  
+  #garis{
+    margin : 16px 0 0 23px;
+    height : 67px;
+  }
+  
+  .p-top{
+  font-size: 0.7rem;
+  padding-top : 20px;
+  }
+  
+  #p-requirement{
+    font-size: 1rem;
+  }
+  
+  .requirement-table , .requirement-th{
+    width: 100%;
+  }
+  
+  .yellow-color{
+   font-size: 0.6rem;
+   padding : 2px 2px 2px 5px; 
+  }
+  
+  .p-table{
+    font-size: 0.6rem;
+    text-align: justify;
+  }
+  
+  .h1-score{
+    font-size: 1.5rem;
+    
+  }
+  
+  #p-score{
+    font-size: 0.8rem;
+    width : 80%;
+    text-align: justify;
+  }
+  
+  .padding-table{
+    margin-top : 30spx;
+  }
+  
+  .nama{
+    width : 70%;
+    font-size: 0.7rem;
+  }
+  
+  .p-job{
+    font-size : 0.5rem;
+  }
+  
+  .p-comment{
+    font-size: 0.6rem;
+  }
+  
+  .p-date{
+    font-size :0.4rem;
+  }
+  
+  .padding-turun{
+    margin: 100px 0 100px 0px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    }
+    
+    .padding-table{
+      margin : 20px 0 0 0 ;
+      border: none;
+      padding : 0 0 100px 0;
+    }
+  #table-tengah{
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  #table-atas{
+    margin-left: 30px;
+    margin-bottom :30px;
+    border: none;
+  }
+  
+  #table-bawah{
+    margin-left :30px;
+    border:none;
+  }
+  
+  .table-gray{
+    background-color: rgba(128, 128, 128, 0.153);
+    table-layout: fixed;
+    width: 80%;
+  }
+  
+  #p1-news{
+    padding : 0px 0 0 10px;
+    text-align: justify;
+    font-size: 0.8rem;
+    width: 40%;
+  }
+  
+  #p2-news{
+    width:70%;
+    font-size: 1.5rem;
+  }
+  
+  #p3-news{
+    width:90%;
+    text-align: justify;
+    font-size: 0.7rem;
+  }
+  
+  form{
+    padding-bottom : 100px;
+    margin-top :0;
+    display: flex;
+  }
+  
+  #input-news{
+    background-color: black;
+    width : 35%;
+    padding : 5px;
+  }
+  
+  #inputan{
+    background-color :rgba(128, 128, 128, 0.037);
+    border :none;
+    color : gold;
+    height: 20%;
+    font-size: 0.5rem;
+  }
+  
+  .form-size{
+    background-color: rgba(128, 128, 128, 0.292);
+    height: 70%;
+  }
+  label{
+    height: 10%;
+    font-size: 0.7rem;
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  #news-bg{
+    padding : 0 0 50px 100px;
+    width: 80%;
+    height: 100%;
+   }
+  
+  .jarak{
+    padding : 0 20px 20px 20px;
+    margin-left: 60px;
+    font-size: 0.6rem;
+  }
+  
+  .kiri{
+    margin-left: 35px;
+    color: gray;
+    font-size : 0.5rem;
+    padding-bottom: 10px;
+  }
+
+  hr{
+    border: 1px solid gray;
+    width: 90%;
+   }
+   
+   a{
+     color : white;
+   }
+  
+}
